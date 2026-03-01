@@ -108,7 +108,7 @@ This project is available under the MIT License - see the LICENSE file for detai
 
 ## ❤️ Support & Credits
 
-Created with 💖 by [RexBjier](https://github.com/ellxoo)
+Created with 💖 by [ellxoo](https://github.com/ellxoo)
 
 If you find this bot template helpful, please consider:
 - ⭐ Giving it a star on GitHub
