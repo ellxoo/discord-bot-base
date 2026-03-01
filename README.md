@@ -1,6 +1,6 @@
 # 🤖 Discord Bot Base
 
-A super-awesome, lightweight Discord bot using Python and discord.py with cool slash commands! ✨
+A super-awesome, lightweight Discord bot using Python and discord.py
 
 ## ⭐ Features
 
@@ -20,7 +20,7 @@ A super-awesome, lightweight Discord bot using Python and discord.py with cool s
 
 1. 📥 Clone this repository or download the files
    ```
-   git clone https://github.com/RexBjier/discord-bot-base.git
+   git clone https://github.com/ellxoo/discord-bot-base.git
    cd discord-bot-base
    ```
 
@@ -104,15 +104,11 @@ async def setup(bot):
 
 This project is available under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
-
-- [discord.py](https://github.com/Rapptz/discord.py) - The awesome Discord API wrapper for Python
-
 ---
 
 ## ❤️ Support & Credits
 
-Created with 💖 by [RexBjier](https://github.com/RexBjier)
+Created with 💖 by [RexBjier](https://github.com/ellxoo)
 
 If you find this bot template helpful, please consider:
 - ⭐ Giving it a star on GitHub
@@ -120,5 +116,3 @@ If you find this bot template helpful, please consider:
 - 🐛 Contributing to its development
 
 Your support keeps this project growing! 🚀
-
-###### Made with 🎮 for the Discord Community
