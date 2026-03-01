@@ -13,7 +13,7 @@ A super-awesome, lightweight Discord bot using Python and discord.py
 
 ### 📝 Prerequisites
 
-- 🐍 Python 3.8 or higher
+- 🐍 Python 3.9 or higher
 - 👾 A Discord account and access to the [Discord Developer Portal](https://discord.com/developers/applications)
 
 ### 🔧 Installation
@@ -38,11 +38,13 @@ A super-awesome, lightweight Discord bot using Python and discord.py
 4. ⚙️ Create a new Discord application
    - Click "New Application" in the Developer Portal
    - Navigate to the "Bot" tab and create a bot
-   - Enable the "MESSAGE CONTENT" intent under Bot settings
 
 5. 🔑 Configure your bot
    - Copy your bot token from the Discord Developer Portal
-   - Open `config.py` and replace `YOUR_BOT_TOKEN_HERE` with your token
+   - Copy `.env.example` to `.env` and paste your token:
+     ```
+     BOT_TOKEN=your_token_here
+     ```
 
 6. 🎉 Invite the bot to your server
    - Go to OAuth2 > URL Generator
@@ -67,7 +69,7 @@ python bot.py
 ```
 /discord-bot-base 
 │── bot.py           # Main bot file
-│── config.py        # Configuration settings
+│── .env.example     # Environment variables template
 │── commands/        # Commands directory
 │   ├── ping.py      # Ping command
 │   ├── hello.py     # Hello command
